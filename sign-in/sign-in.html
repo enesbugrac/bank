@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="sign-in.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <div class="signin-container">
+      <div class="signin-input-container">
+        <div>
+          <p class="signin-input-container-title">Sign In To Your Account</p>
+        </div>
+        <div class="signin-inputs">
+          <div class="signin-input">
+            <span>Email address</span> <input class="signin-input-input" />
+          </div>
+          <div class="signin-input">
+            <span>Password</span> <input class="signin-input-input" />
+          </div>
+        </div>
+        <p class="signin-forgetpassword">Forgot Password</p>
+        <div
+          class="g-recaptcha signin-recaptcha"
+          data-sitekey="6LeCka8gAAAAAGCwMXI1IklWWERHQXANOfbzwbGU"
+        ></div>
+
+        <button class="signin-button">SIGN IN</button>
+      </div>
+      <div class="signin-image-container">
+        <div class="signin-image-container-1" />
+        <div class="signin-image-container-2">
+          <div class="signin-image-container-text">
+            Contact | Privacy | Terms Of Use | Cookie Policy
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

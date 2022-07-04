@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="loan-disbursement.css" />
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <div class="sidebar-image-container">
+        <div class="sidebar-image-container-1">
+          <div class="sidebar-button-container">
+            <div class="sidebar-button-container-div">
+              <img
+                src="../../images/Rectangle 2012.svg"
+                class="sidebar-button-container-rectangle"
+              />
+              <img
+                src="../../images/inner-1.svg"
+                class="sidebar-button-container-inner"
+              />
+              <button class="sidebar-button-active" onclick="location.href='../dashboard.html'">Dashboard</button>
+            </div>
+            <div class="sidebar-button-container-div">
+              <img
+                src="../../images/inner-2.svg"
+                class="sidebar-button-container-inner"
+              />
+              <button class="sidebar-button"  onclick="location.href='../../profile-settings/profile-settings.html'">Settings</button>
+            </div>
+          </div>
+          <div class="sidebar-logout-container">
+            <div class="sidebar-button-container-div">
+              <img
+                src="../../images/inner-3.svg"
+                class="sidebar-logout-button-container-inner"
+              />
+              <button class="sidebar-logout-button">Log Out</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="container-navbar">
+          <p class="container-navbar-title"
+            >Welcome back,
+            <p class="container-navbar-name">&nbsp;&nbsp;John</p>
+          </p>
+          <img src="../../images/inner-1.svg" class="container-navbar-img" />
+        </div>
+        <div class="container-content">
+            <div class="container-content-top">
+                <div class="container-content-top-text">
+                    <div class="go-back" onclick="location.href='../dashboard.html'"><img src="../../images/ionic-ios-arrow-down.svg">Back</div>
+                    <p class="container-content-top-text-top">Dashboard / Case ID 1001 </p>
+                    <div class="container-content-top-text-mid">Student Name:&nbsp;<p class="container-content-top-text-mid-text">Frank Moket</p></div>
+                    <div class="container-content-top-text-mid">School Name:&nbsp;<p class="container-content-top-text-mid-text">Lorem Ipsum</p></div>
+                    <div class="container-content-top-text-mid">Year in School:&nbsp;<p class="container-content-top-text-mid-text">2nd Year Undergraduate</p></div>
+                    <div class="container-content-top-text-mid">Citizenship Status:&nbsp;<p class="container-content-top-text-mid-text">Permanent Resident</p></div>
+                    <div class="container-content-top-text-bottom">
+                        <a class="container-content-top-text-bottom-navigation-left passive" href="../message-board/message-board.html">
+                            Message Board
+                        </a>
+                        <a class="container-content-top-text-bottom-navigation-right active">
+                            Loan Disbursement
+                        </a>
+                    </div>
+                </div>
+            </div>    
+            <div class="loan-disbursement-table">
+                <div class="loan-disbursement-table-head">Amount</div>
+                <div class="border-bottom">
+                  <div class="loan-disbursement-table-head-item-first">
+                    <p>Requested Amount:</p>
+                    <p style="font-weight: 600;">$ 16,666.67</p>
+                  </div>
+                </div>
+                <div class="border-bottom">
+                  <div class="loan-disbursement-table-head-item">
+                    <p>Amount Disbursed:</p>
+                    <div class="input-container">
+                      <p style="font-weight: 600;">$</p>
+                      <input class="loan-disbursement-table-head-item-input" value="16,666.67">
+                    </div>
+                  </div>
+                </div>
+                <div class="border-bottom">
+                  <div class="loan-disbursement-table-head-item">
+                    <p>Vouchpad Inc Commission:</p>
+                    <div class="input-container">
+                      <p style="font-weight: 600;">$</p>
+                      <input class="loan-disbursement-table-head-item-input" value="1200.00">
+                    </div>
+                  </div>
+                </div>
+                <div class="border-bottom">
+                  <div class="loan-disbursement-table-head-item">
+                    <p>Amount Disbursed %:</p>
+                    <div class="input-container">
+                      <p style="font-weight: 600;">%</p>
+                      <input class="loan-disbursement-table-head-item-input" value="3.5">
+                    </div>
+                  </div>
+                </div>
+                <div class="loan-disbursement-table-head-item-last">
+                  <p>Loan Invoice:</p>
+                  <div class="button-container">
+                    <p style="font: normal normal normal 12px/46px Poppins; color: #0089FF;">Invoice.pdf</p>
+                    <button class="upload-button" style="margin-left: 0; background-color: #0089FF;">Upload<img src="../../images/cloud.svg"></button>
+                  </div>
+                </div>
+                <div class="loan-disbursement-table-head-comment">
+                  <p class="loan-disbursement-table-head-comment-title">Comment:</p>
+                  <textarea class="loan-disbursement-table-head-comment-textarea" placeholder="Type here..."></textarea>
+                  <div style="display: flex; justify-content: flex-end;width:93%">
+                    <button class="loan-disbursement-table-head-comment-button" style="border-radius: 25px;">Submit</button>
+                  </div>
+                </div>
+            </div> 
+      </div>
+    </div>
+  </body>
+</html>
