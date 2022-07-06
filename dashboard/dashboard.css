@@ -80,6 +80,9 @@ body {
 .container-content-table-td-credit {
   display: flex;
   flex-direction: row;
+  justify-items: center;
+  vertical-align: middle;
+  padding-right: 10px;
   align-items: center;
   height: 39px;
 }

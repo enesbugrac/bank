@@ -75,7 +75,7 @@ body {
 }
 .container-content-top-mid-img {
   width: 80px;
-  height: 80;
+  height: 80px;
   margin-right: 20px;
 }
 .container-content-top-mid-button {
@@ -98,6 +98,7 @@ body {
 
 .container-content-bottom {
   display: flex;
+  height: 60%;
   flex-direction: column;
 }
 .container-content-bottom-top {

@@ -164,6 +164,7 @@ body {
 .container-content-bottom {
   display: flex;
   flex-direction: column;
+  height: 60%;
 }
 .container-content-bottom-top {
   display: flex;
