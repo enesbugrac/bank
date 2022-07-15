@@ -20,7 +20,7 @@ body {
   padding-left: 18%;
 }
 .sidebar-image-container {
-  background: url("../../images/Rectangle\ 2010.png");
+  background: url("./bank/images/Rectangle\ 2010.png");
   background-repeat: no-repeat;
   height: 100%;
   background-size: cover;
@@ -310,7 +310,7 @@ th {
 }
 
 .sidebar-image-container-1 {
-  background: url("../images/logo.png");
+  background: url("./bank/images/logo.png");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 2;
