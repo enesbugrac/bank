@@ -475,7 +475,7 @@ a {
 }
 
 .sidebar-button-container-div {
-  width: 85%;
+  width: 75%;
 }
 .sidebar-logout-container {
   justify-content: flex-end;
@@ -502,7 +502,7 @@ a {
   border-color: transparent;
   background-color: transparent;
   color: #ffffff;
-  font-weight: normal;
+  font-weight: 200;
   font-family: "Poppins";
   font-size: 18px;
 }

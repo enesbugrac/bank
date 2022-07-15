@@ -47,7 +47,6 @@ body {
 }
 .container-content-top {
   display: flex;
-  padding-top: 15px;
   width: 70%;
   border-bottom: 2px solid #d5d5d5;
   flex-direction: row;
@@ -201,7 +200,7 @@ body {
 }
 
 .sidebar-button-container-div {
-  width: 85%;
+  width: 75%;
 }
 .sidebar-logout-container {
   justify-content: flex-end;
@@ -228,7 +227,7 @@ body {
   border-color: transparent;
   background-color: transparent;
   color: #ffffff;
-  font-weight: normal;
+  font-weight: 200;
   font-family: "Poppins";
   font-size: 18px;
 }
