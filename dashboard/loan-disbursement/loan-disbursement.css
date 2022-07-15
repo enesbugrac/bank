@@ -16,7 +16,20 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
+  padding-left: 18%;
+}
+.sidebar-image-container {
+  background: url("../../images/Rectangle\ 2010.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  opacity: 1;
+  position: fixed;
+  margin-top: 0px;
+  width: 300px;
+  background-color: #0d1d29;
+  border-radius: 0px 50px 50px 0px;
 }
 .container-navbar {
   height: 80px;
@@ -312,23 +325,14 @@ a {
   font: normal normal normal 16px "Poppins";
 }
 .container-navbar-img {
-  margin-left: 45px;
+  margin-left: 30px;
+  width: 48px;
 }
 .container-navbar-name {
   font-size: 20px;
   font-family: "Poppins";
   font-weight: 600;
   color: #09285a;
-}
-.sidebar-image-container {
-  background: url("../../images/Rectangle\ 2010.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 1;
-  margin-top: 0px;
-  width: 350px;
-  background-color: #0d1d29;
-  border-radius: 0px 50px 50px 0px;
 }
 
 .go-back {
