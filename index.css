@@ -17,7 +17,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-left: 18%;
 }
 .sidebar-image-container {
   background: url("./bank/images/Rectangle\ 2010.png");
@@ -27,12 +26,11 @@ body {
   opacity: 1;
   position: fixed;
   margin-top: 0px;
-  width: 300px;
+  width: 250px;
   background-color: #0d1d29;
   border-radius: 0px 50px 50px 0px;
 }
 .container-navbar {
-  height: 80px;
   border-bottom: 3px solid #eeeeee;
   padding-right: 45px;
   display: flex;
@@ -41,9 +39,11 @@ body {
   justify-content: flex-end;
 }
 .container-content {
+  padding-left: 22%;
   display: flex;
   flex-direction: column;
-  padding: 10px 70px;
+  padding-top: 1%;
+  padding-right: 5%;
 }
 .container-content-top {
   display: flex;
@@ -110,8 +110,6 @@ body {
   padding-bottom: 10px;
   padding-top: 10px;
   position: fixed;
-  margin-top: 160px;
-  margin-left: 90px;
   background-color: white;
   width: 180px;
   height: 130px;
@@ -230,10 +228,7 @@ td {
   padding-left: 15px;
   text-align: left;
 }
-th {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+
 .container-content-bottom-text {
   text-align: right;
   font: normal normal normal 13px "Poppins";
